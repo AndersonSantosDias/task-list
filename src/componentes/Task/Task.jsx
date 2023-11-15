@@ -4,7 +4,7 @@ const Task = ({todo, deleteTodo, modal}) => {
 
   function check (){
     let caixa = document.getElementById(todo.id)
-    caixa.src == 'http://localhost:5173/box.svg' ? caixa.src = 'http://localhost:5173/box-check.svg' : caixa.src = 'http://localhost:5173/box.svg'
+    caixa.src == 'box.svg' ? caixa.src = 'box-check.svg' : caixa.src = 'box.svg'
   }
   
   return (
