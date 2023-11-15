@@ -1,0 +1,59 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    ul{
+        display: flex;
+        list-style: none;
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 600;
+        justify-content: space-between;
+        width: 70vw;
+        min-width: 500px;
+
+        #destacado{
+            flex-basis: 200px;
+        }
+    }
+
+    hr{
+        width: 70vw;
+        min-width: 500px;
+        height: 5px;
+        background-color: white;
+    }
+
+    .edit{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        width: 70vw;
+        min-width: 500px;
+
+        input{
+            background: #2D2D2D;
+            border: none;
+            color: white;
+            width: 50%;
+        }
+
+        input:focus{
+            outline: 0;
+        }
+
+        input::placeholder{
+            font-style: italic;
+            color: white;
+        }
+
+        img{
+            cursor: pointer;
+        }
+    }
+
+    
+}

@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background: #0C70F2;
+    flex-direction: column-reverse;
+
+    ul{
+        display: flex;
+        color: #FFF;
+        list-style: none;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+        padding: 0px 0px 0px 40px;
+        gap: 20px;
+
+        #dif{
+            background-color: #FFF;
+            color: #0C70F2;
+            padding: 0px 35px;
+            border-radius: 10px 10px 0px 0px;
+        }
+    }
+}
