@@ -1,15 +1,14 @@
 .tarefa{
     display: flex;
-    margin: auto;
     justify-content: space-between;
-    width: 70vw;
+    width: 52vw;
     min-width: 500px;
-    padding-top: 20px;
+    padding: 10px;
 
     p{
         color: #FFF;
         font-family: Raleway;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: 400;
         flex-basis: 20%;
     }
